@@ -1,0 +1,57 @@
+body{
+    background-image: url(../img/andyone--WW8jBak7bo-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+.container{
+    margin: 60px auto;
+    background: rgb(228, 226, 226);
+    opacity: 0.7;
+    padding: 0;
+    border-radius: 7px;
+}
+.profile-imgae{
+    border-radius: 25px;
+}
+.settings{
+    background: rgb(228, 226, 226);
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+i{
+    margin-top: 10px;
+    font-size: 30px;
+    color: black;
+    margin-left: 14px;
+    transition: .3s;
+}
+i:hover{
+    color: gray;
+    cursor: pointer;
+}
+.search-box{
+    background: whitesmoke;
+    padding: 10px 15px;
+}
+.input-wrapper{
+    background: whitesmoke;
+    border-radius: 40px;
+    color: black;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+input{
+    border: none;
+    border-radius: 40px;
+    width: 80%;
+}
+.placeholder{
+    color: rgb(253, 249, 249);
+    font-weight: 300;
+    outline: none;
+}
